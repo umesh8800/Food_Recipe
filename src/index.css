@@ -1,0 +1,125 @@
+body {
+  margin: 0px;
+  padding: 0px;
+ 
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.app_searchFood{
+  margin-top: 18px;
+}
+
+.app_input{
+  padding: 8px 16px;
+  min-width: 300px;max-width: 100vw;
+  font-size: 15px;
+  
+  
+  
+}
+.app_submit{
+  padding: 8px 16px;
+  font-size: 15px;
+  margin-left: 6px;
+  background-color:#02aff0;
+  border: 2px solid #02aff0;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+.app_submit:hover{
+  padding: 8px 16px;
+  font-size: 15px;
+  margin-left: 6px;
+  background-color:white;
+  border: 2px solid #02aff0;
+  border-radius: 4px;
+  color:#02aff0;
+  cursor: pointer;
+}
+
+.app_recipe{
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: 230px 230px;
+  align-items: baseline;
+}
+
+@media (max-width: 510px) {
+
+  .app_input{
+    padding: 8px 16px;
+    min-width: 200px;max-width: 100vw;
+    font-size: 15px;
+  }
+  h1{
+    font-size: 27px;
+  }
+  .app_recipe{
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: 180px 180px;
+    align-items: baseline;
+  }
+
+}
+
+@media (max-width: 410px) {
+
+  .app_input{
+    padding: 6px 12px;
+    min-width: 150px;max-width: 100vw;
+    font-size: 12px;
+    
+  }
+  .app_submit{
+    padding: 6px 12px;
+    font-size: 12px;
+    
+    
+  }
+  .app_submit:hover{
+    padding: 6px 12px;
+    font-size: 12px;
+    
+  }
+}
+
+@media (max-width: 336px) {
+
+  .app_input{
+    padding: 6px 10px;
+    min-width: 130px;max-width: 100vw;
+    font-size: 10px;
+    
+  }
+  .app_submit{
+    padding: 6px 10px;
+    font-size: 10px;
+    margin-left: 6px;
+    
+  }
+  .app_submit:hover{
+    padding: 6px 10px;
+    font-size: 10px;
+    margin-left: 6px;
+    
+  }
+  h1{
+    font-size: 22px;
+  }
+  .app_recipe{
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: 160px 160px;
+    align-items: baseline;
+  }
+}

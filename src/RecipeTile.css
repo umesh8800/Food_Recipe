@@ -1,0 +1,36 @@
+.recipeTile_img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.recipeTile_name{
+    max-width: 200px;
+    text-align: center;
+    margin: 12px 0px;
+}
+
+@media (max-width: 510px){
+
+    .recipeTile_img{
+        height: 150px;
+        width: 150px;
+        object-fit: cover;
+        border-radius: 2px;
+        margin-left: 10%;
+    }
+
+}
+
+@media (max-width: 336px){
+
+    .recipeTile_img{
+        height: 130px;
+        width: 130px;
+        object-fit: cover;
+        border-radius: 2px;
+        margin-left: 14%;
+    }
+
+}
